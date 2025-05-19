@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="contador"><h1>Contador</h1><div id="contClick"><h1 id="nClick">0</h1></div></header>
+    <!--Painel principal-->
+    <main id="princ">
+        
+        <!--Placa de pressão-->
+        <div id="plate">
+        <img id="pressure" onclick="turn()" src="img/plate.png" alt="" width="300px">
+        </div>
+        <!--Divisão para as lâmpadas-->
+        <div id="lampadas">
+            <!--Imagens das lâmpadas-->
+            <img id="off" src="img/lampMine.png" alt="">
+            <img id="on" src="img/lampMineOn.png" alt="">
+        </div>
+        
+    </main>
+    <!--Overlay responsável pela ilumincação-->
+    <div id="overlay"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
