@@ -29,7 +29,7 @@ Este projeto consiste em um simulador de interruptor digital que permite ligar e
 
 ## ✨ Melhorias Implementadas (opcionais)
 
-* [x] **Efeito de fade-in/fade-out** ao trocar a imagem da lâmpada
+* [ ] **Efeito de fade-in/fade-out** ao trocar a imagem da lâmpada
 * [x] **Plano de fundo dinâmico**, simulando um ambiente claro e escuro
 * [x] **Contador** de vezes que a luz foi acesa
 
